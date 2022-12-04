@@ -30,8 +30,8 @@ services:
       MONGODB_INITIAL_PRIMARY_HOST: mongodb
       MONGODB_INITIAL_PRIMARY_PORT_NUMBER: 7017
       MONGODB_ADVERTISED_HOSTNAME: mongodb
-      MONGODB_ENABLE_JOURNAL: true
-      ALLOW_EMPTY_PASSWORD: yes
+      MONGODB_ENABLE_JOURNAL: "true"
+      ALLOW_EMPTY_PASSWORD: "yes"
 
   traefik:
     image: docker.io/traefik:v2.6.1
